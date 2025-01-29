@@ -1,6 +1,6 @@
 {
-  "name": "@edx/frontend-component-ai-translations",
-  "version": "0.1.0",
+  "name": "@raccoongang/frontend-component-ai-translations",
+  "version": "2.0.0-tokens.2",
   "description": "Frontend component for ai translations",
   "main": "dist/index.js",
   "publishConfig": {
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/frontend-component-ai-translations.git"
+    "url": "git+https://github.com/raccoongang/frontend-component-ai-translations.git"
   },
   "browserslist": [
     "extends @edx/browserslist-config"
@@ -28,14 +28,14 @@
   "author": "edX",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/openedx/frontend-component-ai-translations/issues"
+    "url": "https://github.com/raccoongang/frontend-component-ai-translations/issues"
   },
-  "homepage": "https://github.com/openedx/frontend-component-ai-translations#readme",
+  "homepage": "https://github.com/raccoongang/frontend-component-ai-translations#readme",
   "devDependencies": {
     "@edx/browserslist-config": "^1.1.1",
-    "@edx/frontend-platform": "7.0.1",
-    "@openedx/frontend-build": "13.0.27",
-    "@openedx/paragon": "^22.0.0",
+    "@edx/frontend-platform": "npm:@raccoongang/frontend-platform@7.1.2-tokens.2",
+    "@openedx/frontend-build": "npm:@raccoongang/frontend-build@13.1.4-tokens.2",
+    "@openedx/paragon": "23.0.0",
     "@testing-library/dom": "9.3.3",
     "@testing-library/jest-dom": "5.17.0",
     "@testing-library/react": "10.4.9",
@@ -54,8 +54,8 @@
     "react-router-dom": "6.16.0"
   },
   "peerDependencies": {
-    "@edx/frontend-platform": "^7.0.1",
-    "@openedx/paragon": "^21.5.7 || ^22.0.0",
+    "@edx/frontend-platform": "^7.0.1 || ^7.1.2-tokens.1",
+    "@openedx/paragon": ">= ^21.5.7 < 24.0.0",
     "prop-types": "^15.5.10",
     "react": "^16.9.0 || ^17.0.0",
     "react-dom": "^16.9.0 || ^17.0.0"
